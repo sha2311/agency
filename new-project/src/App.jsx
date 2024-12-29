@@ -1,16 +1,14 @@
-import './App.css'
-import Button from './Components/Button'
-import { SectionTitle } from './Components/SectionTitle'
+import Footer from './Components/shared/Footer'
+import Navbar from './Components/shared/Navbar'
 
 
 function App() {
 
   return (
-    <>
-      <Button> Primary Button </Button>
-      <Button className='bg-teal-500'> secondary Button </Button>
-      <SectionTitle gradient='Alam'>Sheikh Hashibub</SectionTitle>
-    </>
+    <main className='font-nunito-sans bg-[url(..)] min-h-screen '>
+      <Navbar/>
+     <Footer/>
+    </main>
   )
 }
 

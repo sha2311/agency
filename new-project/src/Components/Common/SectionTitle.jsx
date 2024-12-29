@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '../lib/utils'
+import { cn } from '../../lib/utils'
 import { TextGradient } from './TextGradient'
 
 export const SectionTitle = ({ children, className, gradient }) => {
