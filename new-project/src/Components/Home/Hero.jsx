@@ -14,7 +14,7 @@ const Hero = () => {
                 <Button>Get Started</Button>
             </div>
             <div>
-                <img className='w-[80%] md:w-[550px] xl:w-auto mx-auto' src='../../../src/assets/hero-side.svg' alt="GoverningDocs Home Hero Image" />
+                <img className="w-[80%] md:w-[550px] xl:w-auto mx-auto" src='/hero-side.svg' alt="GoverningDocs Home Hero Image" />
             </div>
         </Container>
     </section>
