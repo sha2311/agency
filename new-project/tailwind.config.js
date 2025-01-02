@@ -20,8 +20,11 @@ export default {
         'space-grotesk': ['"Space Grotesk", serif'],
         'nunito-sans': ['"Nunito Sans", serif;'] 
       },
+
+
       boxShadow: {
         card: "0px 10px 30px 0px #02B6DC26",
+        faq: " 0px 0px 25px 0px rgba(2, 182, 220, 0.15)",
       },
     },
   },
